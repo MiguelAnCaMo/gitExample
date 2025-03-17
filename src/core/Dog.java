@@ -9,14 +9,10 @@ package core;
  * @author migue
  */
 public class Dog {
-    String nombre;
-    String raza;
-    boolean tieneHijos;
+    private String name;
 
-    public Dog(String nombre, String raza, boolean tieneHijos) {
-        this.nombre = nombre;
-        this.raza = raza;
-        this.tieneHijos = tieneHijos;
+    public Dog(String name) {
+        this.name = name;
     }
     
 }
